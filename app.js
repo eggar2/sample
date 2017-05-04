@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
 });
 
 app.post('/quotes', (req, res) => {
-	console.log(req.body)
+	console.log(req.body);
 })
 
 app.listen(3000, function () {
